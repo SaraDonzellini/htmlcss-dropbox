@@ -130,10 +130,19 @@ div.instrument{
 
 section.squares{
   border: 2px dotted lime;
-  height: 50rem;
-  width: 100vw;
+  height: 40rem;
+
 }
 
 div.square{
-  border: 2px dotted lime;
+  border: 1px dotted lime;
+  width: 40rem;
+  height: 40rem;
+  flex-wrap: wrap;
+}
+
+div.mini-square{
+  height: 20rem;
+  width: 20rem;
+  background-color: violet;
 }
