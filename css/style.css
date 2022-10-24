@@ -334,13 +334,23 @@ section.free-trial{
   padding-top: 9rem;
 }
 
+section.free-trial h3{
+  color: #612656;
+}
+
 section.faq{
   margin: 5rem auto;
 }
 
 section.faq p{
   line-height: 500%;
+  font-weight: bold;
 }
+
+section.faq hr{
+  width:100%;
+}
+
 
 footer{
   background-color: black;
