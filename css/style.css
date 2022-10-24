@@ -7,3 +7,29 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+
+.flex{
+  display: flex;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* section ul li{
+  list-style-type: none;
+  display: inline;
+} */
+
+header{
+  height: 5rem;
+  background-color: aqua;
+  padding: 0 1rem;
+}
+
+section.jumbo{
+  height: 46rem;
+  background-color: #b4d0e7;
+}
