@@ -38,6 +38,12 @@ body{
   margin: auto;
 }
 
+.container_little{
+  width: 55vw;
+  margin: auto;
+}
+
+
 h1{
   font-weight: 800;
   font-size: 5rem;
@@ -52,6 +58,8 @@ h1{
 h2{
   text-align: start;
   margin-bottom: 3rem;
+  font-size: 3rem;
+  padding-top: 3rem;
 }
 
 h3{
@@ -62,8 +70,26 @@ h4{
   font-size: 2rem;
 }
 
-p{
+h5{
+  font-size: 2rem;
+}
+
+h6{
+  font-size: 1rem;
+}
+
+hr{
+  width:4rem;
+  
+}
+
+div.jumbotron p{
   padding: 2rem 0;
+}
+
+p.grey{
+  padding: 0%;
+  color: #999a9c;
 }
 
 header{
@@ -140,15 +166,36 @@ div.advanced,
 div.enterprise{
   height: 50rem;
   width: 20rem;
-  border: 2px dashed green;
+  border: 1px solid #e7e7e9;
   margin: 0 2rem;
+  
 }
 
 div.team{
   height: 20rem;
   width: 68rem;
-  border: 2px dashed green;
+  border: 1px solid #e7e7e9;
   margin: 5rem auto;
+}
+
+div.singolo{
+  text-align: center;
+  border-bottom: 1px solid #e7e7e9;
+  padding: 0.25rem;
+}
+
+div.padding{
+  padding: 1rem;
+}
+
+div.img-partner{
+  background-image: url(../img/partner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+div.find-partner{
+  padding: 3rem 0;
 }
 
 
@@ -157,15 +204,21 @@ section.partner{
 }
 
 div.img-partner{
-  width: 65%;
+  width: 60%;
   height: 30rem;
-  border: 2px dotted lime;
+  /* border: 2px dotted lime; */
 }
 
 div.find-partner{
-  width: 35%;
+  width: 40%;
   height: 30rem;
-  border: 2px dotted lime;
+  /* border: 2px dotted lime; */
+}
+
+button.partner{
+  border: 1px solid black;
+  background-color: white;
+  padding: 1rem 0.5rem;
 }
 
 section.operations{
@@ -173,10 +226,18 @@ section.operations{
 }
 
 div.instrument{
-  height: 25rem;
+  /* height: 25rem; */
   width: 20rem;
-  border: 2px dotted lime;
+  /* border: 2px dotted lime; */
   margin: 2rem;
+}
+
+div.instrument img{
+  width: 20rem;
+}
+
+div.teams{
+  padding: 5rem 0;
 }
 
 section.squares{
