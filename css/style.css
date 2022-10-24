@@ -18,11 +18,20 @@ body{
   align-items: center;
 }
 
+
 .flex-centered{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.flex-evenly{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
 
 .container{
   width: 65vw;
@@ -45,6 +54,17 @@ h2{
   margin-bottom: 3rem;
 }
 
+h3{
+  font-size: xx-large;
+}
+
+h4{
+  font-size: 2rem;
+}
+
+p{
+  line-height: 500%;
+}
 
 header{
   height: 5rem;
@@ -142,7 +162,35 @@ div.square{
 }
 
 div.mini-square{
-  height: 20rem;
-  width: 20rem;
+  height: 19.7rem;
+  width:19.7rem;
   background-color: violet;
 }
+
+section.free-trial{
+  background-color: #b4d0e7;
+  height: 20rem;
+  padding-top: 9rem;
+}
+
+section.faq{
+  margin: 5rem auto;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  height: 40rem;
+  line-height: 300%;
+
+}
+
+section.footer{
+  padding-top: 5rem;
+}
+
+
+section.footer ul li{
+  list-style: none;
+}
+
