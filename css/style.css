@@ -40,6 +40,12 @@ h1{
 
 }
 
+h2{
+  text-align: start;
+  margin-bottom: 3rem;
+}
+
+
 header{
   height: 5rem;
   background-color: aqua;
@@ -71,8 +77,63 @@ section.plans{
   margin-top: 10rem;
 }
 
+div.input{
+  text-align: start;
+  margin: 2rem;
+}
+
+
+
 div.professional, 
 div.advanced, 
 div.enterprise{
+  height: 50rem;
+  width: 20rem;
+  border: 2px dashed green;
+  margin: 0 2rem;
+}
 
+div.team{
+  height: 20rem;
+  width: 68rem;
+  border: 2px dashed green;
+  margin: 5rem auto;
+}
+
+
+section.partner{
+  height: 30rem;
+}
+
+div.img-partner{
+  width: 65%;
+  height: 30rem;
+  border: 2px dotted lime;
+}
+
+div.find-partner{
+  width: 35%;
+  height: 30rem;
+  border: 2px dotted lime;
+}
+
+section.operations{
+  height: 30rem;
+}
+
+div.instrument{
+  height: 25rem;
+  width: 20rem;
+  border: 2px dotted lime;
+  margin: 2rem;
+}
+
+section.squares{
+  border: 2px dotted lime;
+  height: 50rem;
+  width: 100vw;
+}
+
+div.square{
+  border: 2px dotted lime;
 }
