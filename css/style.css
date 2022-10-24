@@ -18,6 +18,9 @@ body{
   align-items: center;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
 
 .flex-centered{
   display: flex;
@@ -38,9 +41,9 @@ body{
   margin: auto;
 }
 
-.container_little{
+.container-little{
   width: 55vw;
-  margin: auto;
+  margin: 0 auto;
 }
 
 
@@ -250,14 +253,17 @@ div.square{
   border: 1px dotted lime;
   width: 40rem;
   height: 40rem;
-  flex-wrap: wrap;
 }
 
+
+
 div.mini-square{
-  height: 19.7rem;
-  width:19.7rem;
+  height: 20rem;
+  width:20rem;
   background-color: violet;
 }
+
+
 
 section.free-trial{
   background-color: #b4d0e7;
