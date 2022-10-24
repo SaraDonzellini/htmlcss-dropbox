@@ -37,6 +37,7 @@ body{
 .flex-column{
   display: flex;
   flex-direction: column;
+  align-items: space-between;
 
 }
 
@@ -89,6 +90,10 @@ h6{
   font-size: 1rem;
 }
 
+button:hover{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
 hr{
   width:4rem;
   
@@ -135,6 +140,7 @@ button.download{
   background-color: #0061ff;
   padding: 1rem 2rem;
   border: none;
+  font-size: large;
 }
 
 button.moved{
@@ -283,7 +289,7 @@ div.mini-square{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border: 1rem solid transparent;
+  border: 3rem solid transparent;
   filter: invert(1);
 }
 
@@ -321,10 +327,6 @@ div.clearchannel{
   background-color: #0027cf;
   background-image: url(../img/clear_channel.svg);
 }
-
-
-
-
 
 section.free-trial{
   background-color: #b4d0e7;
