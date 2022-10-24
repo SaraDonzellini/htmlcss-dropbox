@@ -268,8 +268,8 @@ section.squares{
 
 div.square{
   /* border: 1px dotted lime; */
-  width: calc(100% / 3);
-  /* height: 40rem; */
+  width: calc(100vw / 3);
+  height: calc(100vw / 3);
 }
 
 div.square-middle{
@@ -282,8 +282,8 @@ div.square-middle{
 }
 
 div.mini-square{
-  height: 300px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
   /* background-color: rgb(187, 49, 187); */
   /* border: 1px dotted rgb(0, 0, 0); */
   background-repeat: no-repeat;
