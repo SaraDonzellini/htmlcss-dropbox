@@ -43,7 +43,7 @@ h1{
   font-size: 5rem;
   text-align: start;
   padding: 9rem 0 0 3rem;
-  line-height: 90%;
+  line-height: 100%;
   width: 70vw;
   margin: auto;
 
@@ -63,7 +63,7 @@ h4{
 }
 
 p{
-  line-height: 500%;
+  padding: 2rem 0;
 }
 
 header{
@@ -92,20 +92,36 @@ section.jumbo{
   background-color: #b4d0e7;
 }
 
+button.download{
+  color: white;
+  background-color: #0061ff;
+  padding: 1rem 2rem;
+  border: none;
+}
+
+
 div.jumbotron{
-  border: 2px dashed rgb(0, 0, 0);
+  /* border: 2px dashed rgb(0, 0, 0); */
   height: 30rem;
   margin-top: 6rem;
 }
 
+div.img-jumbo{
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+}
+
+
 div.freetry{
-  width: 40%;
-  border: 2px dotted lime;
+  width: 30%;
+  /* border: 2px dotted lime; */
 }
 
 div.img-jumbo{
-  width: 60%;
-  border: 2px dotted lime;
+  width: 70%;
+  /* border: 2px dotted lime; */
 }
 
 section.plans{
@@ -190,6 +206,10 @@ section.free-trial{
 
 section.faq{
   margin: 5rem auto;
+}
+
+section.faq p{
+  line-height: 500%;
 }
 
 footer{
