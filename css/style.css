@@ -42,7 +42,7 @@ h1{
   font-weight: 800;
   font-size: 5rem;
   text-align: start;
-  padding: 3rem 0 0 3rem;
+  padding: 9rem 0 0 3rem;
   line-height: 90%;
   width: 70vw;
   margin: auto;
@@ -68,12 +68,27 @@ p{
 
 header{
   height: 5rem;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   padding: 0 1rem;
+  position: fixed;
+  width: 100vw;
 }
 
+section.leftheader span,
+section.rightheader span{
+  padding: 0 2rem;
+  }
+
+button.inizia{
+  color: white;
+  background-color: #0061ff;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+
 section.jumbo{
-  height: 46rem;
+  height: 51rem;
   background-color: #b4d0e7;
 }
 
