@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .flex{
@@ -37,7 +38,8 @@ body{
 .flex-column{
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  align-items: space-around;
+  justify-content: space-around;
 
 }
 
@@ -99,9 +101,7 @@ hr{
   
 }
 
-div.jumbotron p{
-  padding: 2rem 0;
-}
+
 
 p.grey{
   padding: 0%;
@@ -135,12 +135,16 @@ section.jumbo{
   background-color: #b4d0e7;
 }
 
+div.jumbotron p{
+  padding: 2rem 0;
+}
+
 button.download{
   color: white;
   background-color: #0061ff;
   padding: 1rem 2rem;
   border: none;
-  font-size: large;
+  font-size: 1rem;
 }
 
 button.moved{
@@ -187,8 +191,8 @@ div.input{
 div.professional, 
 div.advanced, 
 div.enterprise{
-  height: 50rem;
-  width: 20rem;
+  height: 60rem;
+  width: 30rem;
   border: 1px solid #e7e7e9;
   margin: 0 2rem;
   
@@ -196,7 +200,7 @@ div.enterprise{
 
 div.team{
   height: 20rem;
-  width: 68rem;
+  width: 61rem;
   border: 1px solid #e7e7e9;
   margin: 5rem auto;
 }
@@ -210,6 +214,15 @@ div.singolo{
 div.padding{
   padding: 1rem;
   position: relative;
+}
+
+div.padding ul li{
+  list-style-type: none;
+  line-height: 200%;
+}
+
+div.padding p{
+  line-height: 2rem;
 }
 
 div.img-partner{
@@ -289,7 +302,7 @@ div.mini-square{
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  border: 3rem solid transparent;
+  border: 4rem solid transparent;
   filter: invert(1);
 }
 
