@@ -118,7 +118,7 @@ p.grey{
 header{
   height: 5rem;
   background-color: rgb(255, 255, 255);
-  padding: 0 1rem;
+  padding: 0 1rem 0.25rem;
   position: fixed;
   width: 100vw;
   z-index: 2;
@@ -132,8 +132,9 @@ section.rightheader span{
 button.inizia{
   color: white;
   background-color: #0061ff;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.5rem;
   border: none;
+  font-size: 1rem;
 }
 
 /* jumbotron section */
