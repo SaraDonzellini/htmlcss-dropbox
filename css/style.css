@@ -197,8 +197,6 @@ div.enterprise{
   height: 60rem;
   width: 30rem;
   border: 1px solid #e7e7e9;
-
-  
 }
 
 div.advanced{
@@ -213,12 +211,6 @@ div.team{
   margin: 5rem auto;
 }
 
-button.moved{
-  position: absolute;
-  top: 20%;
-  right: 3%;
-}
-
 
 div.singolo{
   text-align: center;
@@ -230,6 +222,14 @@ div.padding{
   padding: 1rem;
   position: relative;
 }
+
+
+button.moved{
+  position: absolute;
+  top: 20%;
+  right: 3%;
+}
+
 
 div.padding ul li{
   list-style-type: none;
