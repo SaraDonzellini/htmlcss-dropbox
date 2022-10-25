@@ -136,6 +136,10 @@ header{
   z-index: 2;
 }
 
+section.leftheader img{
+  padding-top: 0.20rem;
+}
+
 section.leftheader span,
 section.rightheader span{
   padding: 0 2rem;
@@ -236,6 +240,9 @@ div.padding{
   position: relative;
 }
 
+div.padding>div{
+  padding-bottom: 2rem;
+}
 
 button.moved{
   position: absolute;
