@@ -187,7 +187,7 @@ section.plans{
 
 div.input{
   text-align: start;
-  margin: 2rem;
+  margin: 4rem;
 }
 
 
@@ -195,13 +195,13 @@ div.input{
 div.professional, 
 div.advanced, 
 div.enterprise{
-  height: 50rem;
+  height: 55rem;
   width: 30rem;
   border: 1px solid #e7e7e9;
 }
 
 div.advanced{
-  margin: 0 2rem;
+  margin: 0 3rem;
 }
 
 
