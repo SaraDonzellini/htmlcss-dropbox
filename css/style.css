@@ -223,7 +223,7 @@ div.input{
 div.professional, 
 div.advanced, 
 div.enterprise{
-  height: 55rem;
+  height: 58rem;
   width: 30rem;
   border: 1px solid #e7e7e9;
   
@@ -275,6 +275,10 @@ div.padding p{
   /* text-indent: -0.6rem; */
 }
 
+div.padding hr{
+  margin: 1rem 0;
+  border: 1px solid rgb(208, 208, 211);
+}
 
 
 /* partner section */
@@ -315,7 +319,7 @@ section.operations{
 
 div.instrument{
   /* height: 25rem; */
-  width: 20rem;
+  /* width: 20rem; */
   /* border: 2px dotted lime; */
   margin: 2rem;
 }
