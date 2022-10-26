@@ -143,7 +143,13 @@ section.leftheader img{
 section.leftheader span,
 section.rightheader span{
   padding: 0 2rem;
-  }
+}
+
+section.leftheader span a,
+section.rightheader span a{
+  text-decoration: none;
+  color: black;
+}
 
 button.inizia{
   color: white;
@@ -177,11 +183,15 @@ div.jumbotron{
   margin-top: 6rem;
 }
 
-div.img-jumbo{
+/* div.img-jumbo{
   background-image: url(../img/jumbo.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5rem;
+} */
+
+div.img-jumbo img {
+  width: 100%;
 }
 
 
