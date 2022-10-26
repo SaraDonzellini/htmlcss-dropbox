@@ -181,12 +181,6 @@ div.jumbotron{
   margin-top: 6rem;
 }
 
-/* div.img-jumbo{
-  background-image: url(../img/jumbo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 5rem;
-} */
 
 div.img-jumbo img {
   width: 100%;
