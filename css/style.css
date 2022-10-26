@@ -98,6 +98,11 @@ h5{
 
 h6{
   font-size: 1rem;
+  margin: 2rem 0;
+}
+
+hr{
+  border: 1px solid #e7e7e9;
 }
 
 button.partner:hover{
@@ -164,8 +169,17 @@ section.jumbo{
 }
 
 div.jumbotron p{
-  padding: 2rem 0;
+  padding: 0 0 2rem 0;
 }
+
+div.jumbotron p.annulla{
+  padding: 2rem 0 0 0;
+}
+
+div.jumbotron i{
+  padding-top: 4.5rem;
+}
+
 
 button.download{
   color: white;
@@ -207,8 +221,6 @@ div.input{
   text-align: start;
   margin: 4rem;
 }
-
-
 
 div.professional, 
 div.advanced, 
@@ -303,9 +315,9 @@ button.partner{
 
 
 /* operations section */
-section.operations{
+/* section.operations{
   height: 30rem;
-}
+} */
 
 div.instrument{
   /* height: 25rem; */
@@ -316,6 +328,10 @@ div.instrument{
 
 div.instrument img{
   width: 20rem;
+}
+
+div.instrument p{
+  padding-top: 1rem;
 }
 
 div.teams{
